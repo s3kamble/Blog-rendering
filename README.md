@@ -102,6 +102,7 @@
 
 *  To test the given endpoints,use "Postman" app :
 <br>
+
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/17003746-28d2f269-c173-4f75-b5e1-768e54cc3b7c?action=collection%2Ffork&collection-url=entityId%3D17003746-28d2f269-c173-4f75-b5e1-768e54cc3b7c%26entityType%3Dcollection%26workspaceId%3D29424687-6818-4cf4-8fe6-db66728f90f7)
 
 <br>
@@ -114,7 +115,7 @@
    ```
 <p>Expected Output: </p>
 
-![](https://github.com/s3kamble/Blog-rendering/assets/GET-BLOG.png)
+![](https://s3kamble.github.io/to-do-images/assets/GET-BLOG.png)
 
 <br>
 <br>
@@ -128,7 +129,7 @@
 <p>:blogId -->unique id to be searched for </p>
 <p>Expected Output: </p>
 
-![](https://github.com/s3kamble/Blog-rendering/assets/GET-id.png)
+![](https://s3kamble.github.io/to-do-images/assets/GET-id.png)
 
 <br>
 <br>
@@ -150,7 +151,7 @@
     <li>relatedLinks:array of objects</li>
     <li>
          <p>Expected Output: </p>        
-         <img src="https://github.com/s3kamble/Blog-rendering/assets/POST-blog.png"></img>
+         <img src="https://s3kamble.github.io/to-do-images/assets/POST-blog.png"></img>
    </li>
 </ul>
 <br>
@@ -173,7 +174,7 @@
     <li>relatedLinks:array of objects</li>
     <li>
     <p>Expected Output: </p>
-    <img src="https://github.com/s3kamble/Blog-rendering/assets/PUT.png">
+    <img src="https://s3kamble.github.io/to-do-images/assets/PUT.png">
 </li>
 </ul>
 <br>
@@ -188,7 +189,7 @@
 
 <p>Expected Output: </p>
 
-![](https://github.com/s3kamble/Blog-rendering/assets/DELETE-blog.png)
+![](https://s3kamble.github.io/to-do-images/assets/DELETE-blog.png)
 
 <i>The examples shown above are from the POSTMAN app </i>
 <br>
