@@ -114,9 +114,7 @@
     localhost:4000/blogs/
    ```
 <p>Expected Output: </p>
-
-![](https://s3kamble.github.io/to-do-images/assets/GET-BLOG.png)
-
+<img src="https://s3kamble.github.io/to-do-images/assets/GET-Blog.png"></img>
 <br>
 <br>
 
@@ -128,9 +126,7 @@
    ```
 <p>:blogId -->unique id to be searched for </p>
 <p>Expected Output: </p>
-
-![](https://s3kamble.github.io/to-do-images/assets/GET-id.png)
-
+<img src="https://s3kamble.github.io/to-do-images/assets/GET%20-id.png"></img>
 <br>
 <br>
 
@@ -157,7 +153,7 @@
 <br>
 <br>
 
-<h1>Update an existing Task</h1>
+<h1>Update an existing Blog</h1>
 <h2>PUT request </h2>
 
 ```sh
@@ -180,7 +176,7 @@
 <br>
 <br>
 
-<h1>DELETE a particular Task by id</h1>
+<h1>DELETE a particular Blog by id</h1>
 <h2>DELETE request </h2>
 
 ```sh
@@ -188,8 +184,13 @@
    ```
 
 <p>Expected Output: </p>
+<img src="https://s3kamble.github.io/to-do-images/assets/delete%20blog.png"></img>
 
-![](https://s3kamble.github.io/to-do-images/assets/DELETE-blog.png)
+<br>
+<b>ERRORS<b>
+<p>If you miss out on some key,or something goes wrong ,an error message will be shown ,which will guide you for the error</p>
+<p>Example: </p>
+<img src="https://s3kamble.github.io/to-do-images/assets/Create-error.png"></img>
 
 <i>The examples shown above are from the POSTMAN app </i>
 <br>
