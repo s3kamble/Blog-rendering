@@ -31,7 +31,7 @@ const blogSchema = new mongoose.Schema({
     type: String,
     required: true, 
   },
- relatedlinks:{
+ relatedLinks:{
      type:[{
          title:{
              type:String,

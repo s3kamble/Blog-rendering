@@ -44,6 +44,7 @@ const getBlogById = async(req,res,next)=>{
     let blogImage = undefined;
    
     let{author,title,content,tags,relatedLinks}=req.body;
+    relatedLinks=JSON.parse(relatedLinks)
     try{
         if(process.env.STORAGE == "database" && req.file){
             let file = (await getImageURI(req)).content;
@@ -60,9 +61,8 @@ const getBlogById = async(req,res,next)=>{
             createdAt:Date.now(),
             tags:tags,
             blogImage:blogImage ,
-            relatedLinks:JSON.parse(relatedLinks),
+            relatedLinks:relatedLinks,
         });
-
         if(!data){
             next(errorHandler.notFound(`The Blog ID ${req.params.blogId} not found.`));
             return;
@@ -118,9 +118,9 @@ const updateBlog = async (req, res, next) => {
                 return;
             }
 			updates[key] = req.body[key];
+           
 		}
 	});
-
        if(process.env.STORAGE === "database" && req.file){
             let file = (await getImageURI(req)).content;
             blogImage = (await uploader.upload(file)).url;
@@ -129,6 +129,7 @@ const updateBlog = async (req, res, next) => {
        else{
             updates.blogImage = req.file.originalname;     
        }
+
        
         let data = await Blog.findOneAndUpdate({blogId: req.params.blogId}, updates, {
             new: true,
