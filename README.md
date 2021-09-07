@@ -187,7 +187,9 @@
 <img src="https://s3kamble.github.io/to-do-images/assets/delete%20blog.png"></img>
 
 <br>
-<b>ERRORS<b>
+<br>
+
+<b><u>ERRORS</u></b>
 <p>If you miss out on some key,or something goes wrong ,an error message will be shown ,which will guide you for the error</p>
 <p>Example: </p>
 <img src="https://s3kamble.github.io/to-do-images/assets/Create-error.png"></img>
