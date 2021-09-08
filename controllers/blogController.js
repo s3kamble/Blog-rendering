@@ -58,7 +58,7 @@ const getBlogById = async(req,res,next)=>{
             author:author,
             blogTitle:title,
             blogContent:content,
-            createdAt:Date.now(),
+            createdAt:new Date().toLocaleDateString(),
             tags:tags,
             blogImage:blogImage ,
             relatedLinks:relatedLinks,
